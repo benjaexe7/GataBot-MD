@@ -7,37 +7,19 @@ import fetch from "node-fetch";
 import axios from "axios";
 import moment from "moment-timezone";
 import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"; 
- 
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
 ["51934721687", '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-BenjaBot 💖🐈', true],
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
 global.mods = [];
-global.prems = ["528451003894"];
+global.prems = ["51934721687"];
 //key de violetics
-global.Key360 = ["964f-0c75-7afc"];
-   
-  
-//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga GataBot-MD
-//Add the language you want GataBot-MD to have
-//  es = Español         id = Bahasa Indonesia
-//  en = English         pt = Português 
-//  ar = عرب             hi = Hindi Language
-
+global.Key360 = ["964f-0c75-7afc"]
 global.lenguajeGB = es; //Idioma de GataBot, Ejemplo: es | en | pt...
-
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
-
 global.openai_key = "sk-...OzYy2";
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
-
 global.openai_org_id = "HITjoN7H8pCwoncEB9e3fSyW";
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
-
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"];
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
 global.keysxteammm = ["29d4b59a4aa687ca", "5LTV57azwaid7dXfz5fzJu", "cb15ed422c71a2fb", "5bd33b276d41d6b4", "HIRO", "kurrxd09", "ebb6251cc00f9c63"];
@@ -92,16 +74,7 @@ global.moment = moment;
 global.official = [ // Agregate si eres Owner
 ["51934721687", 'Benja Bot 💻', 1], 
 ["51934721687", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["51934721687", '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["51934721687", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["51934721687", 'Prueba', 1]];
-
-global.mail = ''; //agrega tú correo
-global.desc = ''; //agrega una descripción corta
-global.desc2 = ''; //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = ''; //agrega tú país ejemplo: 🇪🇨
-
-global.packname = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-BenjaBot 🐈";
+global.packname = "BenjaBot 🐈";
 global.author = "Benja Bot";
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
